@@ -30,8 +30,8 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/DevDiones/Recipe-Page)
-- Live Site URL: [Add live site URL here](https://devdiones.github.io/Recipe-Page/)
+- Solution URL: [https://github.com/DevDiones/Recipe-Page](https://github.com/DevDiones/Recipe-Page)
+- Live Site URL: [https://devdiones.github.io/Recipe-Page/](https://devdiones.github.io/Recipe-Page/)
 
 ## Author
 
