@@ -7,6 +7,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Tools](#built-with)
+  - [Links](#links)
 - [Author](#author)
 
 ## Overview
@@ -25,6 +27,11 @@ You can use any tools you like to help you complete the challenge. So if you've 
 ### Built with
 - Semantic HTML5 markup
 - CSS custom properties
+
+### Links
+
+- Solution URL: [Add solution URL here](https://github.com/DevDiones/Recipe-Page)
+- Live Site URL: [Add live site URL here](https://devdiones.github.io/Recipe-Page/)
 
 ## Author
 
