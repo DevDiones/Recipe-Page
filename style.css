@@ -1,0 +1,182 @@
+@font-face {
+    font-family: YoungSerif;
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    color: hsl(24, 5%, 18%);
+}
+
+body{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: hsl(330, 100%, 98%);
+}
+
+.main-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 50vw;
+    padding: 35px;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 46vw;
+    border-radius: 15px;
+} 
+
+p{
+    font-size: 18px;
+    font-family: Outfit;
+    color: hsl(24, 5%, 18%)
+}
+
+h1{
+    color: hsl(332, 51%, 32%);
+}
+.divider{
+    background-color: hsl(30, 18%, 87%);
+    height: 2px;
+ 
+}
+
+.header > .title{
+    font-size: 50px;
+    font-family: YoungSerif;
+    color: hsl(24, 5%, 18%);
+}
+
+.preparation-time{
+    background-color: hsl(330, 100%, 98%);
+    padding: 15px;
+    border-radius: 15px;
+    font-family: Outfit;
+    h1{
+        margin: 0;
+    }
+    ul{
+        padding-left: 40px;
+        li{
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.ingredients{
+    min-height: 30vh;
+
+    h1{
+        font-family: YoungSerif;
+    }
+
+    ul{
+        margin-left: 17px;
+        li{
+            margin-bottom: 10px;
+            font-size: 18px;
+
+            span{
+                position: relative;
+                left: 50;
+            }
+        }
+       
+    }
+}
+
+.instructions{
+    min-height: 40vh;
+
+    h1{
+        font-family: YoungSerif;
+    }
+
+    ol{
+        
+        li{
+            margin-bottom: 10px;
+            font-size: 18px;
+            margin-left: 20px;
+            span{
+                
+                font-weight: 700;
+            }
+        }
+       
+    }
+}
+
+.nutrition{
+    min-height: 45vh;
+    h1{
+        font-family: YoungSerif;
+    }
+    .items{
+        display: flex;
+        
+        .item-name{
+            width: 50%;
+        }
+    }
+
+    margin-bottom: 50px;
+}
+
+
+@media(max-width: 375px) {
+    body{
+        margin: 0;
+    }
+    .main-wrapper{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        width: 100vw;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    img{
+        width: 100vw;
+        border-radius: 0;
+        margin-top: 0;
+    }
+
+    .header{
+        padding: 20px;
+
+        .title{
+            margin-top: 0;
+            font-size: 2.5rem;
+        }
+    }
+
+    .ingredients{
+        padding: 20px;
+        height: 70vh;
+    }
+    .instructions{
+        padding: 20px;
+        height: 130vh;
+    }
+
+    .nutrition{
+        padding: 20px;
+        height: 90vh;
+    }
+}
